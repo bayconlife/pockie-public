@@ -1,0 +1,32 @@
+import { registerModule } from '../kernel/moduleLoader';
+import CollectionModule from './collection';
+import EnchantModule from './enchant';
+import EnhanceModule from './enhance';
+import EquipModule from './equip';
+import GemModule from './gems';
+import ImpressModule from './impress';
+import InscribeModule from './inscribe';
+import InventoryModule from './inventory';
+import ItemModule from './itemSystem';
+import MarketModule from './market';
+import PetModule from './pets';
+import RefineModule from './refine';
+import SynthesisModule from './synthesis';
+import UseModule from './use';
+
+export default () => {
+  new CollectionModule(registerModule).load();
+  new EnchantModule(registerModule).load();
+  new EnhanceModule(registerModule).load();
+  new EquipModule(registerModule).load();
+  new GemModule(registerModule).load();
+  new ImpressModule(registerModule).load();
+  new InscribeModule(registerModule).load();
+  new InventoryModule(registerModule).load();
+  new ItemModule(registerModule).load();
+  new MarketModule(registerModule).load();
+  new PetModule(registerModule).load();
+  new RefineModule(registerModule).load();
+  new SynthesisModule(registerModule).load();
+  new UseModule(registerModule).load();
+};

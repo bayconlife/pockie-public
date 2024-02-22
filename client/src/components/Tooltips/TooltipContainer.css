@@ -1,0 +1,8 @@
+#display {
+	padding: 2px;
+	border-width: 5px;
+	border-style: solid;
+	border-image: url(../../assets/UIResource/Common/SmallBG2.png) 5 fill;
+	opacity: 0;
+	pointer-events: none;
+};

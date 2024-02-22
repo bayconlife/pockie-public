@@ -1,0 +1,79 @@
+.register-container {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.register-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #D1E5F0;
+  border: 15px solid #2F4858;
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+}
+
+.register-modal > h2 {
+  margin-top: 0;
+}
+
+#register__body {
+  margin: 15px;
+  display: grid;
+  gap: 5px;
+}
+
+#register__body > div {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+
+#register__body > div > label {
+  text-align: right;
+  margin-top: 5px;
+}
+
+#register__body > div > input {
+  border-radius: 15px;
+}
+
+#register__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  color: darkred;
+  cursor: pointer;
+}
+
+#register__response {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#register__submit {
+  width: 100%;
+}
+
+#register__submit > button {
+  width: 75px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #86BBD8;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#register__submit > button:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,36 @@
+.panel {
+	border-image: url(../../assets/UIResource/Common/Frame_activeBG.png) 26 5 5 fill;
+	border-width: 26px 5px 5px 5px;
+	border-style: solid;
+	color: black;
+}
+
+.panel__top_bar {
+	padding: 4px 0 0 5px;
+	position: absolute;
+	top: -26px;
+	left: -5px;
+	height: 26px;
+	width: calc(100% + 10px);
+}
+
+.panel__nameplate {
+	font-family: 'Arial';
+	font-size: 12px;
+	position: absolute;
+}
+
+.panel__nameplate > .panel__name {
+	padding: 3px;
+	user-select: none;
+}
+
+.panel__close_btn {
+	position: absolute;
+	right: 10px;
+}
+
+.panel__minimize_btn {
+	position: absolute;
+	right: 10px;
+}

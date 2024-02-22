@@ -1,0 +1,72 @@
+.chat-background.--minimized {
+	height: 0 !important;
+	opacity: 0;
+}
+
+.chat-display {
+	/* padding: 6px 4px; */
+	/* width: 336px; */
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column-reverse;
+	white-space: pre-wrap;
+	color: whitesmoke;
+	margin: 0;
+	font-size: 0.9rem;
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.chat-display::-webkit-scrollbar { 
+	display: none;  /* Safari and Chrome */
+}
+
+
+#channel-select {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.chat-tab {
+	border-image-source: url(../../assets/UILookAndFeel/Transparent/tab.png);
+	border-image-slice: 5  fill;
+	border-image-width: 4px 4px 4px 4px;
+	border-image-repeat: stretch stretch;
+	border-image-outset: 0px 0px 0px 0px;
+	width: 75px;
+	text-align: center;
+	color: white;
+	padding: 4px 0 0 0;
+	cursor: pointer;
+	user-select: none;
+}
+
+.chat-tab.--active {
+	border-image-source: url(../../assets/UILookAndFeel/Transparent/tab-active.png);
+}
+
+.pull-tab {
+	cursor: move;
+	position: absolute;
+	top: 0; 
+	right: 0;
+	width: 10px; 
+	height: 10px;
+	z-index: 3;
+
+	background:
+		linear-gradient(to top right,
+		rgba(255,255,255,0) 0%,
+		rgba(255,255,255,0) calc(20% - 0.8px),
+		rgba(255,255,255,1) 20%,
+		rgba(255,255,255,0) calc(20% + 0.8px),
+		rgba(255,255,255,0) 100%),
+		linear-gradient(to top right,
+		rgba(255,255,255,0) 0%,
+		rgba(255,255,255,0) calc(40% - 0.8px),
+		rgba(255,255,255,1) 40%,
+		rgba(255,255,255,0) calc(40% + 0.8px),
+		rgba(255,255,255,0) 100%);
+
+	transform: scaleX(-1) scaleY(-1) translate(3px, -3px);
+}

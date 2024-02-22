@@ -1,0 +1,53 @@
+.test-text {
+  color: gold;
+  font-size: 16px;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  user-select: none;
+}
+
+.info-text {
+  color: black;
+  font-size: 16px;
+  text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+  user-select: none;
+}
+
+.arena-fighter {
+  cursor: pointer;
+}
+
+.defeated {
+  pointer-events: none;
+  filter: brightness(0.3);
+}
+
+.drop-shadow {
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 255));
+}
+
+.name {
+  color: maroon;
+}
+
+.arena-history {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.arena-history > p {
+  margin: 5px 0 0 0;
+}
+
+.arena__leaderboard-row div {
+  white-space: nowrap !important;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.arena__leaderboard-name pre {
+  white-space: nowrap !important;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

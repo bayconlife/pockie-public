@@ -1,0 +1,45 @@
+.button {
+  display: grid;
+
+  &.right {
+    float: right;
+  }
+}
+
+.button__background,
+.button__button {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.tabbed_pane__tab_background {
+  width: inherit;
+}
+
+.button__button {
+  background: none;
+  border: none;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 0;
+}
+
+.button__button:disabled {
+  cursor: not-allowed;
+}
+
+.jbutton.--default {
+  border-image-source: url(../../assets/UILookAndFeel/Default/button.png);
+}
+
+.jbutton.--disabled {
+  filter: grayscale(100%)
+}
+
+.jbutton.--hover {
+  filter: brightness(140%);
+}
+
+.jbutton.--pressed {
+  filter: brightness(70%);
+}

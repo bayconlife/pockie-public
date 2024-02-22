@@ -1,0 +1,25 @@
+
+
+#game-container {
+	/* width: 300px; */
+	max-width: min(100vw, 1980px);
+	max-height: min(100vh, 1020px);
+	aspect-ratio: auto 16 / 9;
+	background-color: rgb(44, 46, 49);
+	margin: auto;
+	position: relative;
+}
+
+#game-container > * {
+	pointer-events: auto;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.tooltip-break {
+  border-top: 1px solid white;
+  height: 1px;
+  margin: 5px 0 5px 0;
+}

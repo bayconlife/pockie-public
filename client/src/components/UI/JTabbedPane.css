@@ -1,0 +1,38 @@
+.tabbed_pane__content {
+  position: absolute;
+  top: -26px;
+}
+
+.tabbed_pane__tabs {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.tabbed_pane__tab {
+  display: grid;
+}
+
+.tabbed_pane__tab_background,
+.tabbed_pane__tab_button {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.tabbed_pane__tab_background {
+  width: inherit;
+  height: 16px;
+  /* position: absolute; */
+  /* display: none; */
+}
+
+.tabbed_pane__tab_button {
+  padding: 0 5px 0 5px;
+  border: 0;
+  background: none;
+}
+
+.tabbed_pane__tab_title {
+  /* position: relative; */
+  top: 0;
+}

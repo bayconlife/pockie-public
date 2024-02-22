@@ -1,0 +1,8 @@
+.clickable {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clickable:hover {
+  color: maroon;
+}

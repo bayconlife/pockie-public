@@ -1,0 +1,8 @@
+{
+	"server": {
+		"port": 6511
+	},
+	"socket": {
+		"path": "/socket.io"
+	}
+}

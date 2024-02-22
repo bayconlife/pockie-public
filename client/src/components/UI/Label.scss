@@ -1,0 +1,27 @@
+.label {
+	height: fit-content;
+	width: inherit;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	&.center {
+		text-align: center;
+	}
+
+	&.left {
+		text-align: left;
+	}
+
+	&.right {
+		text-align: right;
+	}
+}
+
+.label.sm {
+	font-size: 0.8rem;
+}
+
+.label.xs {
+	font-size: 0.75rem;
+}

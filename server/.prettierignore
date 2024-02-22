@@ -1,0 +1,14 @@
+**/node_modules
+**/build
+**/config
+
+.prettierignore
+.gitignore
+
+package.json
+package-lock.json
+
+README.md
+
+tsconfig.json
+yarn.lock

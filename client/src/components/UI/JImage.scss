@@ -1,0 +1,9 @@
+.j-image {
+	&.clickable {
+		cursor: pointer;
+	}
+	
+	&.gray {
+		filter: contrast(0.5);
+	}
+}

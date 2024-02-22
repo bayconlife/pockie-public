@@ -1,0 +1,6 @@
+.info-text {
+  color: black;
+  font-size: 12px;
+  text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+  user-select: none;
+}

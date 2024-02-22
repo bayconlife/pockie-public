@@ -1,0 +1,16 @@
+.monster-box {
+  border-radius: 4px;
+}
+
+.monster-box:hover {
+  cursor: pointer;
+  box-shadow: inset gold 0px 0px 5px 5px, gold 0px 0px 5px 2px;
+}
+
+.monster_box__name {
+  color: whitesmoke;
+  fill: whitesmoke;
+  text-align: center;
+  overflow: hidden hidden !important;
+  white-space: nowrap;
+}

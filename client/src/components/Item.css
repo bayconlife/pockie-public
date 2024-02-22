@@ -1,0 +1,24 @@
+.item--hidden {
+  filter: opacity(50%);
+  transition: 0.01s; /* Hacky but it works. We can't transition immediately or the drag container will also be moved */
+  transform: translateX(-9999px);
+}
+
+.item .img__image {
+  position: relative;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.item__info--right {
+  top: 0;
+  right: 0;
+  transform: translate(100%, -25%);
+}
+
+.item__info--left {
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -25%);
+}

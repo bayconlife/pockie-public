@@ -1,0 +1,55 @@
+.slot-machine__container {
+	width: 380px;
+	height: 367px;
+
+	.slot-machine {
+		&__challenge-btn {
+			position: absolute;
+			top: 153px;
+			left: 103px;
+		}
+
+		&__challenge-btn-text {
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			top: 8px;
+		}
+
+		&__close-btn {
+			position: absolute;
+			top: 13px;
+			left: 257px;
+		}
+
+		&__countdown {
+			position: absolute;
+			left: 0;
+			top: 200px;
+			text-align: center;
+			width: 300px;
+			user-select: none;
+			pointer-events: none;
+		}
+
+		&__fighter-container {
+			position: absolute;
+			top: 88px;
+			left: 59px;
+			display: flex;
+			gap: 14px;
+		}
+
+		&__frames {
+			position: absolute;
+			top: 87px;
+			left: 58px;
+		}
+	}
+}
+
+.slot-machine__icon {
+	position: absolute;
+	top: 160px;
+	left: 1px;
+}

@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS locked_names (
+	name TEXT NOT NULL PRIMARY KEY
+);

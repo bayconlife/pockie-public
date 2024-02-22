@@ -1,0 +1,24 @@
+.outline {
+  text-shadow: 
+		-1px 1px 0 #5c3600d9,
+		1px 1px 0 #5c3600d9,
+		1px -1px 0 #5c3600d9,
+		-1px -1px 0 #5c3600d9,
+		1px 1px 3px black;
+}
+
+.exploration__card--button {
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 5px;
+}
+
+.exploration__card--name {
+	color: black;
+	font-size: 0.8rem;
+	font-family: Arial;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden hidden;
+	text-overflow: ellipsis;
+}

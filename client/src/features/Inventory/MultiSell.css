@@ -1,0 +1,13 @@
+#sell-grid {
+	display: flex;
+	flex-wrap: wrap;
+	height: 200px;
+	width: 300px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+#sell-grid > div {
+	display: flex;
+	width: fit-content;
+}

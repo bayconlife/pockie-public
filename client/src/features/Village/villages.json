@@ -1,0 +1,222 @@
+{
+  "fire": [
+    {
+      "id": 11001,
+      "key": "hall",
+      "position": { "x": 732, "y": 496 },
+      "name": { "top": -10, "left": 331, "text": "Hall" }
+    },
+    {
+      "id": 11002,
+      "key": "arena",
+      "position": { "x": 544.45, "y": 156.95 },
+      "name": { "top": 153, "left": 81, "text": "Arena" }
+    },
+    {
+      "id": 11003,
+      "key": "blacksmith",
+      "position": { "x": 460, "y": 532 },
+      "name": { "top": 40, "left": 20, "text": "Armory" }
+    },
+    {
+      "id": 11005,
+      "key": "shop",
+      "position": { "x": 232, "y": 463.6 },
+      "name": { "top": 23, "left": 236, "text": "Item Shop" }
+    },
+    {
+      "id": 11006,
+      "key": "kennel",
+      "position": { "x": 1063, "y": 600 },
+      "name": { "top": 201, "left": 31, "text": "Pet Kennel" }
+    },
+    {
+      "id": 16001,
+      "key": "hall",
+      "position": { "x": 906, "y": 34 },
+      "name": { "top": 256, "left": 92, "text": "Hall" }
+    },
+    {
+      "id": 16005,
+      "key": "shop",
+      "position": { "x": 584, "y": 472 },
+      "name": { "top": 32, "left": 10, "text": "Item Shop" }
+    }
+  ],
+  "water": [
+    {
+      "id": 11001,
+      "key": "hall",
+      "position": { "x": 0, "y": 510 },
+      "name": { "top": 240, "left": 367.8, "text": "Hall" }
+    },
+    {
+      "id": 11002,
+      "key": "arena",
+      "position": { "x": 382.2, "y": 281 },
+      "name": { "top": 96.05, "left": 225.55, "text": "Arena" }
+    },
+    {
+      "id": 11003,
+      "key": "blacksmith",
+      "position": { "x": 1012, "y": 593 },
+      "name": { "top": 9.45, "left": 76.3, "text": "Armory" }
+    },
+    {
+      "id": 11005,
+      "key": "shop",
+      "position": { "x": 1195, "y": 515 },
+      "name": { "top": -3.39, "left": -24.8, "text": "Item Shop" }
+    },
+    {
+      "id": 11006,
+      "key": "kennel",
+      "position": { "x": 946, "y": 545 },
+      "name": { "top": 72.6, "left": -84, "text": "Pet Kennel" }
+    },
+    {
+      "id": 16001,
+      "key": "hall",
+      "position": { "x": 906, "y": 34 },
+      "name": { "top": 256, "left": 92, "text": "Hall" }
+    },
+    {
+      "id": 16005,
+      "key": "shop",
+      "position": { "x": 584, "y": 472 },
+      "name": { "top": 32, "left": 10, "text": "Item Shop" }
+    }
+  ],
+  "wind": [
+    {
+      "id": 11001,
+      "key": "hall",
+      "position": { "x": 803, "y": 184 },
+      "name": { "top": 33.25, "left": 220.8, "text": "Hall" }
+    },
+    {
+      "id": 11002,
+      "key": "arena",
+      "position": { "x": 758, "y": 413 },
+      "name": { "top": 160.05, "left": 331.1, "text": "Arena" }
+    },
+    {
+      "id": 11003,
+      "key": "blacksmith",
+      "position": { "x": 1355, "y": 270 },
+      "name": { "top": 9.75, "left": 82.05, "text": "Armory" }
+    },
+    {
+      "id": 11005,
+      "key": "shop",
+      "position": { "x": 530, "y": 450 },
+      "name": { "top": 53.1, "left": 113.6, "text": "Item Shop" }
+    },
+    {
+      "id": 11006,
+      "key": "kennel",
+      "position": { "x": 1274, "y": 595 },
+      "name": { "top": 23.1, "left": 131.75, "text": "Pet Kennel" }
+    },
+    {
+      "id": 16001,
+      "key": "hall",
+      "position": { "x": 906, "y": 34 },
+      "name": { "top": 256, "left": 92, "text": "Hall" }
+    },
+    {
+      "id": 16005,
+      "key": "shop",
+      "position": { "x": 584, "y": 472 },
+      "name": { "top": 32, "left": 10, "text": "Item Shop" }
+    }
+  ],
+  "earth": [
+    {
+      "id": 11001,
+      "key": "hall",
+      "position": { "x": 996, "y": 237 },
+      "name": { "top": 5.7, "left": 121.75, "text": "Hall" }
+    },
+    {
+      "id": 11002,
+      "key": "arena",
+      "position": { "x": 600, "y": 227 },
+      "name": { "top": -29.45, "left": 184.5, "text": "Arena" }
+    },
+    {
+      "id": 11003,
+      "key": "blacksmith",
+      "position": { "x": 858, "y": 738 },
+      "name": { "top": -12.95, "left": -28, "text": "Armory" }
+    },
+    {
+      "id": 11005,
+      "key": "shop",
+      "position": { "x": 264, "y": 300 },
+      "name": { "top": 112.1, "left": 153.85, "text": "Item Shop" }
+    },
+    {
+      "id": 11006,
+      "key": "kennel",
+      "position": { "x": 494, "y": 638 },
+      "name": { "top": 12.1, "left": 93, "text": "Pet Kennel" }
+    },
+    {
+      "id": 16001,
+      "key": "hall",
+      "position": { "x": 906, "y": 34 },
+      "name": { "top": 256, "left": 92, "text": "Hall" }
+    },
+    {
+      "id": 16005,
+      "key": "shop",
+      "position": { "x": 584, "y": 472 },
+      "name": { "top": 32, "left": 10, "text": "Item Shop" }
+    }
+  ],
+  "lightning": [
+    {
+      "id": 11001,
+      "key": "hall",
+      "position": { "x": 905, "y": 89 },
+      "name": { "top": 56.25, "left": 259.55, "text": "Hall" }
+    },
+    {
+      "id": 11002,
+      "key": "arena",
+      "position": { "x": 1150, "y": 600 },
+      "name": { "top": 26.65, "left": 71.9, "text": "Arena" }
+    },
+    {
+      "id": 11003,
+      "key": "blacksmith",
+      "position": { "x": 697, "y": 467 },
+      "name": { "top": 19.65, "left": -25.35, "text": "Armory" }
+    },
+    {
+      "id": 11005,
+      "key": "shop",
+      "position": { "x": 850, "y": 550 },
+      "name": { "top": 85.85, "left": 155.5, "text": "Item Shop" }
+    },
+    {
+      "id": 11006,
+      "key": "kennel",
+      "position": { "x": 395, "y": 390 },
+      "name": { "top": 0.1, "left": -14.05, "text": "Pet Kennel" }
+    },
+    {
+      "id": 16001,
+      "key": "hall",
+      "position": { "x": 906, "y": 34 },
+      "name": { "top": 256, "left": 92, "text": "Hall" }
+    },
+    {
+      "id": 16005,
+      "key": "shop",
+      "position": { "x": 584, "y": 472 },
+      "name": { "top": 32, "left": 10, "text": "Item Shop" }
+    }
+  ]
+}

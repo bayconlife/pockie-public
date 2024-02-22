@@ -1,0 +1,47 @@
+module.exports = {
+	40001: require('./aid/attack'),
+	40002: require('./aid/hpRestore'),
+	40003: require('./aid/chakraRestore'),
+	40006: require('./aid/block'),
+	40007: require('./aid/40007_peck'),
+	40008: require('./aid/40008_vampireBite'),
+	40009: require('./aid/40009_sting'),
+
+
+	40043: require('./passive/ferocious'),
+	40044: require('./passive/sharpClaws'),
+	40045: require('./passive/sharpness'),
+	40046: require('./passive/vision'),
+	40047: require('./passive/rampage'),
+	40048: require('./passive/40048_defenseBreakBasic'), // grayed out in the skill files but it was higher than the expert version so I lowered it
+	40049: require('./passive/wisdom'),
+	40050: require('./passive/dragonmight'),
+	40051: require('./passive/dragonscale'),
+	40052: require('./passive/fireEnhancement'),
+	40053: require('./passive/waterEnhancement'),
+	40054: require('./passive/earthEnhancement'),
+	40055: require('./passive/windEnhancement'),
+	40056: require('./passive/lightningEnhancement'),
+
+
+	40066: require('./aura/rebirthAura'),
+	40086: require('./aura/sacrifice'),
+	40106: require('./aura/antibody'),
+
+	50020: require('./passive/50020_pierceExpert'),
+	50021: require('./passive/50021_speedExpert'),
+	50022: require('./passive/50022_hitExpert'),
+	50023: require('./passive/50023_critExpert'),
+	50024: require('./passive/50024_maxHpPercentExpert'),
+	50025: require('./passive/50025_maxHpExpert'),
+	50026: require('./passive/50026_dodgeExpert'),
+	50027: require('./passive/50027_parryExpert'),
+	50028: require('./passive/50028_toughnessExpert'),
+	50029: require('./passive/50029_defenseExpert'),
+	50030: require('./passive/50030_defenseBreakExpert'),
+	50031: require('./passive/50031_maxAttackExpert'),
+	50032: require('./passive/50032_attackPercentExpert'),
+	50033: require('./passive/50033_maxMpExpert'),
+	50034: require('./passive/50034_expExpert'),
+	50035: require('./passive/50035_dropExpert'),
+}

@@ -1,0 +1,8 @@
+.outline {
+  text-shadow: 
+		-1px 1px 0 #5c3600d9,
+		1px 1px 0 #5c3600d9,
+		1px -1px 0 #5c3600d9,
+		-1px -1px 0 #5c3600d9,
+		1px 1px 3px black;
+}

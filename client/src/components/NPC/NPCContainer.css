@@ -1,0 +1,37 @@
+.npc__name {
+  font-weight: bold;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
+
+.npc__name:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-text);
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(#FFEACC, #FF8A19);
+  background-clip: text;
+  transform: translate(-50%);
+}
+
+.npc__name:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: attr(data-text);
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+  transform: translate(-50%);
+}
+
+.npc__quest {
+  cursor: pointer;
+  position: absolute !important;
+  top: -5px;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+}

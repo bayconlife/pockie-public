@@ -1,0 +1,223 @@
+@font-face {
+  font-family: KOMIKAK;
+  src: url('../public/fonts/KOMIKAX.ttf'); 
+}
+@font-face {
+  font-family: megadeth;
+  src: url('../public/fonts/megadeth.ttf'); 
+}
+@font-face {
+  font-family: blackbox;
+  src: url('../public/fonts/blackbox.ttf'); 
+}
+@font-face {
+  font-family: cooprblk;
+  src: url('../public/fonts/cooprblk.ttf'); 
+}
+@font-face {
+  font-family: chowfun;
+  src: url('../public/fonts/CHOWFUN_.TTF'); 
+}
+@font-face {
+  font-family: blippo;
+  src: url('../public/fonts/blippo.ttf'); 
+}
+@font-face {
+  font-family: dom;
+  src: url('../public/fonts/Dom\ Casual\ Std\ Bold.otf'); 
+}
+
+@font-face {
+  font-family: Header;
+  src: url('../public/fonts/KOMIKAX.ttf');
+  size-adjust: 90%;
+}
+
+:root {
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+} */
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.blur {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.button-no-style {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.disabled {
+  cursor: not-allowed;
+  filter: grayscale(1);
+}
+
+.fade-in {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: opacity 3s ease-in;
+}
+
+.grayscale {
+  filter: grayscale(100%)
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--overlap {
+  display: grid;
+}
+
+.grid--overlap > * {
+	grid-row: 1;
+	grid-column: 1;
+}
+
+.highlighted {
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.loader {
+  position: absolute;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0a0a0a;
+  border-radius: 50%;
+  width: calc(100% - 8px);
+  padding-top: calc(100% - 8px);
+  animation: spin 2s linear infinite;
+  backdrop-filter: blur(6px);
+  opacity: .5;
+  top: 0;
+  left: 0;
+}
+
+.moveable {
+  cursor: move;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.single-container {
+
+	.item-container {
+		width: 100%;
+		height: 100%;
+		display: flex;
+
+		.item {
+			margin: auto;
+			position: relative !important;
+			top: 0 !important;
+			left: 0 !important;
+		}
+	}
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-shadow {
+  color: whitesmoke;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  user-select: none;
+}
+
+.text-outline {
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+#tooltip > div {
+	opacity: 1 !important;
+}
+
+#title-select option {
+  background: black;
+  color: whitesmoke;
+}
+
+#title-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.title-1 {
+  font-family:  "Poppins", sans-serif;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.display-1 {
+  font-family: KOMIKAK;
+  font-size: 22px;
+  color: darkgreen;
+}

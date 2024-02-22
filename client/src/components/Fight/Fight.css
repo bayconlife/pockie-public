@@ -1,0 +1,39 @@
+.fight__stat-column {
+  width: 80px;
+  display: inline-block;
+}
+
+.fight__stat-column.--single {
+  width: 160px;
+}
+
+.fight__stat-column > .fight__stat-label {
+  text-align: end;
+  width: 50px;
+  display: inline-block;
+}
+
+.fight__stat-column > .fight__stat-value {
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+}
+
+.fight__stat-column.--single > .fight__stat-value {
+  width: 110px;
+}
+
+.fight__stat-row {
+  width: 160px;
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+
+.fight-text--red {
+  color: crimson;
+}
+
+.fight-text--blue {
+  color: skyblue;
+}

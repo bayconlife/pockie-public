@@ -1,0 +1,26 @@
+module.exports.Inscribe = {
+	// 0: { chance: 94, cost: 60, failure: 0, percentStat: 3}, 
+	// 1: { chance: 78, cost: 120, failure: 1, percentStat: 6}, 
+	// 2: { chance: 68, cost: 180, failure: 2, percentStat: 10}, 
+	// 3: { chance: 58, cost: 240, failure: 3, percentStat: 14}, 
+	// 4: { chance: 48, cost: 320, failure: 4, percentStat: 18}, 
+	// 5: { chance: 35, cost: 400, failure: 4, percentStat: 23}, 
+	// 6: { chance: 24, cost: 480, failure: 4, percentStat: 28}, 
+	// 7: { chance: 12, cost: 600, failure: 4, percentStat: 33}, 
+	// 8: { chance: 8, cost: 720, failure: 8, percentStat: 39}, 
+	// 9: { chance: 6, cost: 840, failure: 8, percentStat: 45}, 
+	// 10: { chance: 4, cost: 1000, failure: 8, percentStat: 52}, 
+	// 11: { chance: 3, cost: 1200, failure: 8, percentStat: 60}
+	0: { chance: 940, cost: 60, failure: 0, percentStat: 3}, 
+	1: { chance: 780, cost: 120, failure: 1, percentStat: 6}, 
+	2: { chance: 680, cost: 180, failure: 2, percentStat: 10}, 
+	3: { chance: 580, cost: 240, failure: 3, percentStat: 14}, 
+	4: { chance: 480, cost: 320, failure: 4, percentStat: 18}, 
+	5: { chance: 350, cost: 400, failure: 4, percentStat: 23}, 
+	6: { chance: 240, cost: 480, failure: 4, percentStat: 28}, 
+	7: { chance: 120, cost: 600, failure: 4, percentStat: 33}, 
+	8: { chance: 800, cost: 720, failure: 8, percentStat: 39}, 
+	9: { chance: 600, cost: 840, failure: 8, percentStat: 45}, 
+	10: { chance: 400, cost: 1000, failure: 8, percentStat: 52}, 
+	11: { chance: 300, cost: 1200, failure: 8, percentStat: 60}
+}

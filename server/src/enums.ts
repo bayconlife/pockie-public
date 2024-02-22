@@ -1,0 +1,293 @@
+export enum CombatActionType {
+  EFFECT = 'effect',
+  SKILL = 'skill',
+  DAMAGE = 'damage',
+}
+
+export enum Effect {
+  INIT = 8888,
+  PARALYSIS = 11801,
+  FROZEN = 11802, // 11802
+  BURN = 11804, // 11804, 11840 is a stand in?
+  POISON = 11811,
+  PRAYER = 11111,
+  LIQUOR = 11806,
+  GHOST = 11808,
+  SLOW = 11810,
+  ELEMENTAL_SEAL = 11812,
+  DIZZY = 11813,
+  BLOODBOIL = 11814, // Recieve 20% recoil damage when using chakra-based skills
+  CHARM = 11815,
+  SNARED = 11816,
+  DOOR_ONE = 11819,
+  DETONATING_CLAY = 11820,
+  MIST = 11821,
+  SUNSET = 11822,
+  MARK = 11823,
+  MUD_WALL = 11824,
+  ACCELERATE = 11825,
+  CLOUD = 11827,
+  STATIC = 11831,
+  BLESS = 11832,
+  WEAK = 11833,
+  HEAL = 11834,
+  DRAIN = 11836, // Inflicted by Death Mirage Jutsu, drains hp and chakra until the enemy uses a chakra based skill
+  BLEED = 11838,
+  DOUBLE_MP = 11839, //Vessel Destroy??
+  SUBSTITUTE = 11840,
+  DOOR_TWO = 11844,
+  DOOR_THREE = 11845,
+  DOOR_FOUR = 11846,
+  DOOR_FIVE = 11847,
+  DOOR_SIX = 11848,
+  DOOR_SEVEN = 11849,
+  DOOR_EIGHT = 11850,
+  ABSOLUTE_LOYALTY = 11873,
+  REPRESS = 11874,
+  ANTIBODY = 11875,
+  SOBER = 11876,
+  REMOVE_SEAL = 11877,
+  PET_BLESS = 11878,
+  ELEMENT_MASTERY = 11905,
+  THUNDER = 11909,
+
+  PET_BLOCK = 40006,
+}
+
+export enum EffectAssociation {
+  BENEFICIAL = 1,
+  HARMFUL = 2,
+  OTHER = 3,
+}
+
+export enum EffectRemoveType {
+  DO_NOT_REMOVE = -1,
+  DURATION = 0,
+  ATTACK_HIT = 1,
+  START_OF_TURN = 2,
+}
+
+export enum FightEvents {
+  START_FIGHTING = 0,
+  BEGIN_ATTACK = 1,
+  END_ATTACK = 2,
+  CANT_MOVE = 3,
+  PRIORITY_MUL = 5,
+  BACK_THROWED = 6,
+  COUNTER_DAMAGE = 7,
+  CHANGE_BUFF = 9,
+  USER_SKILL = 14,
+  BE_DIE = 20,
+  CHANGE_ROLE = 21,
+  VICTORY = 22,
+}
+
+export enum FightReasons {
+  NEW_PLAYER = -1,
+  StartFighting,
+  Fight,
+  CompetePlayer,
+  CompeteNPC,
+  CloneScene,
+  SlaveBegin,
+  SlaveFree,
+  SlaveSlave,
+  SlaveHost,
+  SlaveRevolt,
+  SlaveRescue,
+  SlaveEnd = 15,
+  GardenBegin,
+  GardenNPC,
+  GardenSlave,
+  GardenActive,
+  GardenEnd = 25,
+  PK = 27,
+  WorldCup = 30,
+  NatMatch = 35,
+  SingleGate = 40,
+  PubSceneMonster = 45,
+  HallTrainRob = 50,
+  HomeEggRob = 55,
+  HomeEggChuck = 56,
+  LeiTai = 57,
+  Beast = 58,
+}
+
+export enum FightStat {
+  SHIELD = 1,
+}
+
+export enum ItemLocations {
+  Socketed = -2,
+  NONE = -1,
+  Inventory = 0,
+  Inscribe = 40,
+  Enhance = 50,
+  EnhanceTalisman = 51,
+  Refine = 52,
+  RefineTalisman = 53,
+  GemCreateSlot = 54,
+  GemCreateSlotTalisman = 55,
+  GemRemove = 56,
+  Enchant = 57,
+  EnchantStone = 58,
+  BossTicket = 60,
+  Shop = 100,
+  Pet = 200,
+  PetFood1 = 201,
+  PetFood2 = 202,
+  PetFood3 = 203,
+  PetFood4 = 204,
+  PetFood5 = 205,
+  PetFood6 = 206,
+  PetTrace = 229,
+  PetStorage = 230,
+  Equipment_Avatar = 300,
+  Equipment_Shoes = 309,
+  Impress_Item = 350,
+  Impress_Blade = 351,
+  Impress_Crystal = 352,
+  RerollPet = 400,
+}
+
+export enum ItemType {
+  Avatar = 0,
+  Weapon = 1,
+  Gloves = 2,
+  Pet = 3,
+  Ring = 4,
+  Amulet = 5,
+  Helm = 6,
+  Body = 7,
+  Belt = 8,
+  Shoes = 9,
+  Food = 12,
+  Task = 14,
+  Etc = 15,
+  Pharmacy = 16,
+  Enchantment = 40,
+  Crop = 17,
+
+  Box = 45,
+  Impress = 350,
+  ImpressRate = 351,
+}
+
+export enum QuestType {
+  Collect = 1,
+  Kill,
+  Talk,
+}
+
+export enum UserSkillResult {
+  SKILL_SUCCESS = 0,
+  SKILL_NO_MANA = 1,
+  SKILL_CANT_USE = 2,
+  SKILL_LOSE = 3,
+}
+
+export enum SkillCategory {
+  INVALID = -1,
+  FIRE,
+  WATER,
+  EARTH,
+  LIGHTNING,
+  WIND,
+  BODY,
+  TOOL,
+  SEALING,
+  ILLUSION,
+  HEALING,
+}
+
+export enum SkillMethod {
+  NONE, // Only bomb?
+  RANGED,
+  MELEE,
+  MELEE_NO_ADDITIONAL_SKILLS,
+}
+
+export enum SkillType {
+  INVALID = 0,
+  ATTACK = 1,
+  PASSIVE = 2,
+  TRIGGER = 3,
+}
+
+export enum SkillTrigger { // These are called Quomodo in the code which translates to "How", seems to only be on skills with type trigger
+  START_THE_FIGHT = 1,
+  BEFORE_ATTACK,
+  BEFORE_BEING_ATTACKED,
+  AFTER_BEING_HURT,
+  AFTER_DEATH,
+  DOES_NOT_EXISTS, //Why did they skip/remove ???
+  MELEE_TRIGGER_AFTER_SKILL_HIT,
+  PET_TRIGGER_AFTER_SKILL_HIT,
+  MELEE_TOUCH_AFTER_BEING_HIT_BY_A_SKILL,
+
+  AFTER_AURA = 10,
+  START_OF_TURN = 11,
+}
+
+export enum UserSkills {
+  BASIC_ATTACK = 1,
+  THUNDERFALL = 1802,
+  CRYSTAL_BLADE = 1803,
+  TAILED_BEAST_HEART = 1805,
+  LOTUS = 1807,
+  FIREBALL = 1808,
+  BALSAM = 1809,
+  RASENGAN = 1810,
+  GALE_PALM = 1813,
+  DEAD_DEMON_CONSUMING_SEAL = 1814,
+  EARTH_PRISON = 1815,
+  GREAT_MUD_RIVER = 1816,
+  GREAT_STRENGTH = 1822,
+  FIVE_ELEMENTAL_SEAL = 1823,
+  CHIDORI = 1825,
+  QUICKSTEP = 1826,
+  ASSASSINATE = 1827,
+  BOMB = 1828,
+  MYSTICAL_PALM_TECHNIQUE = 1829,
+  CHAKRA_BLADE = 1830,
+  EIGHT_TRIGRAM_PALM = 1832,
+  STATIC_FIELD = 1839,
+  PRE_HEALING_JUTSU = 3802,
+  CREATION_REBIRTH = 3803,
+  BLOODBOIL = 3804,
+  SEXY_TECHNIQUE = 3805,
+  MUD_WALL = 3806,
+  SNARED = 3807,
+  THE_EIGHT_INNER_GATES_RELEASED = 3810,
+  WINDSTORM_ARRAY = 3811,
+  DETONATING_CLAY = 3812,
+  DETONATING_CLAY_2 = 38122,
+  MIST = 3813,
+  LIQUOR = 3814,
+  SUNSET = 3815,
+  CURSED_SEAL_OF_HEAVEN = 3819,
+  GIANT_WATERFALL = 3820,
+  PRAYER = 3821,
+  FLYING_THUNDER_GOD = 3822,
+  FLYING_THUNDER_GOD_2 = 38221,
+  PUPPET = 3825,
+  SUBSTITUTE = 3826,
+  DEATH_MIRAGE_JUTSU = 3827,
+  SECRET_TECHNIQUE = 10000,
+  PET_BASIC_ATTACK = 40001,
+  PET_RESTORE = 40002,
+  PET_RESTORE_CHAKRA = 40003,
+  PET_CLEANSE = 40004,
+  PET_DEVOUR = 40005,
+  PET_BLOCK = 40006,
+  PET_FEEDING = 40007,
+  PET_VAMPIRE = 40008,
+  PET_BITE = 40009,
+  PET_COMBO = 40010,
+  ABSOLUTE_LOYALTY = 40098,
+  REPRESS = 40100,
+  ANTIBODY = 40106,
+  SOBER = 40108,
+  REMOVE_SEAL = 40110,
+  BLESS = 40113,
+}

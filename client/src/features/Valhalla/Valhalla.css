@@ -1,0 +1,42 @@
+.valhalla__difficulty__name {
+  font-weight: bold;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 34px;
+  transform: translate(-50%);
+  font-family: fantasy;
+}
+
+.valhalla__difficulty__name:after {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  content: attr(data-text);
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(rgba(119,180,254,255), #082088);
+  background-clip: text;
+  transform: translate(-50%);
+}
+
+.valhalla__difficulty__name:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: attr(data-text);
+  transform: translate(-50%);
+
+  -webkit-text-stroke: 6px #e7ffff;
+}
+
+.element__3 {
+  z-index: 4;
+}
+
+.element__5 {
+  z-index: 2;
+}

@@ -1,0 +1,16 @@
+**/node_modules
+**/build
+**/config
+
+.env
+.env.production
+.prettierignore
+.gitignore
+
+package.json
+package-lock.json
+
+README.md
+
+tsconfig.json
+yarn.lock

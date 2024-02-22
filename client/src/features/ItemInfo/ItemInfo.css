@@ -1,0 +1,11 @@
+.item-info {
+  color: whitesmoke;
+}
+
+.--invalid {
+  color: red;
+}
+
+.set-active {
+  color: lightgreen;
+}
